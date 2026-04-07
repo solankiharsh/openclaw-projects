@@ -1,0 +1,12 @@
+# Repositories to scan (owner/repo format)
+repositories:
+  - "solankiharsh/openclaw-projects"
+  # - "your-org/backend"
+  # - "your-org/frontend"
+
+# PRs open longer than this many hours are considered stale
+stale_threshold_hours: 48
+
+# Telegram delivery settings
+telegram:
+  enabled: false

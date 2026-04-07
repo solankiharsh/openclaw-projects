@@ -1,0 +1,13 @@
+# Google Calendar
+calendar_id: "primary"
+
+# GitHub repositories to scan for open PRs
+github_repos:
+  - "solankiharsh/openclaw-projects"
+  # - "your-org/another-repo"
+
+# ClickUp list ID for priority tasks
+clickup_list_id: ""
+
+# Gmail — email address for domain-wide delegation (or "me" for OAuth)
+gmail_user_email: "me"

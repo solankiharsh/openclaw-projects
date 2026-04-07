@@ -1,0 +1,36 @@
+# Competitors to monitor
+competitors:
+  - name: "Vercel"
+    rss_feeds:
+      - "https://vercel.com/atom"
+    careers_pages:
+      - url: "https://vercel.com/careers"
+        selector: "a[href*='/careers/']"
+    changelog_pages:
+      - url: "https://vercel.com/changelog"
+        selector: "article"
+
+  - name: "Linear"
+    rss_feeds:
+      - "https://linear.app/blog/rss.xml"
+    careers_pages:
+      - url: "https://linear.app/careers"
+        selector: ".job-listing"
+    changelog_pages:
+      - url: "https://linear.app/changelog"
+        selector: ".changelog-entry"
+
+  # Add more competitors as needed:
+  # - name: "CompetitorName"
+  #   rss_feeds:
+  #     - "https://competitor.com/blog/feed"
+  #   careers_pages:
+  #     - url: "https://competitor.com/careers"
+  #       selector: ".job-card"
+  #   changelog_pages:
+  #     - url: "https://competitor.com/changelog"
+  #       selector: ".changelog-item"
+
+# Telegram delivery
+telegram:
+  enabled: false

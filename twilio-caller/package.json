@@ -1,0 +1,16 @@
+{
+  "name": "twilio-caller",
+  "version": "1.0.0",
+  "description": "Outbound phone call automation using Twilio with text-to-speech",
+  "main": "index.js",
+  "scripts": {
+    "call": "node index.js"
+  },
+  "keywords": ["twilio", "phone-call", "automation", "tts"],
+  "author": "HarshClaw",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "twilio": "^5.4.3"
+  }
+}
